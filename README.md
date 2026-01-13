@@ -70,13 +70,13 @@ Run scripts in: sql=>03_gold=>
 Run scripts in: 04_views=>igold_export_views.sql
 
 ## 🧰 Tech Stack
-![alt text](image.png)
+<img width="718" height="338" alt="image" src="https://github.com/user-attachments/assets/1e4bb12a-a929-4b0f-bfbf-df352755d031" />
 
 ## 🏗️ Architecture
-![alt text](image-1.png)
+<img width="729" height="568" alt="image" src="https://github.com/user-attachments/assets/e478c09f-7e0a-414f-a7a9-0789f2daf22d" />
 
 ## 📁 Repository Structure
-
+```
 Snowflake_HR_Analytics_Lakehouse/
 │
 ├── README.md
@@ -93,13 +93,12 @@ Snowflake_HR_Analytics_Lakehouse/
 │   ├── 04_views/
 │
 └── data/
-
+```
 ## Database & schema structure
-
-![alt text](image-2.png)
+<img width="1409" height="920" alt="image" src="https://github.com/user-attachments/assets/8b72736f-2ee8-4ad1-bc3b-540abba36734" />
 
 ##  Gold Dynamic table graph 
-![alt text](image-3.png)
+<img width="1383" height="902" alt="image" src="https://github.com/user-attachments/assets/9e90e5cd-0133-432e-b2f0-589ee8c10426" />
 
 
 ## 📊 Analytics Use Cases
