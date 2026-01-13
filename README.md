@@ -95,10 +95,10 @@ Snowflake_HR_Analytics_Lakehouse/
 └── data/
 ```
 ## Database & schema structure
-<img width="1409" height="920" alt="image" src="https://github.com/user-attachments/assets/8b72736f-2ee8-4ad1-bc3b-540abba36734" />
+<img width="1509" height="1120" alt="image" src="https://github.com/user-attachments/assets/8b72736f-2ee8-4ad1-bc3b-540abba36734" />
 
 ##  Gold Dynamic table graph 
-<img width="1383" height="902" alt="image" src="https://github.com/user-attachments/assets/9e90e5cd-0133-432e-b2f0-589ee8c10426" />
+<img width="1483" height="1102" alt="image" src="https://github.com/user-attachments/assets/9e90e5cd-0133-432e-b2f0-589ee8c10426" />
 
 
 ## 📊 Analytics Use Cases
