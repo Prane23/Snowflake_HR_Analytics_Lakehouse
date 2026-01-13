@@ -1,4 +1,4 @@
-# 🚀Snowflake HR Analytics Lakehouse
+# ❄️ Snowflake HR Analytics Lakehouse
 A complete HR Analytics Lakehouse built on Snowflake, following the Medallion Architecture (Bronze → Silver → Gold) and powered by Dynamic Tables for automated, incremental ELT.
 
 This project simulates a real enterprise (test/mock) HR data platform with:
