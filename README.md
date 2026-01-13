@@ -49,7 +49,7 @@ This project simulates a real enterprise (test/mock) HR data platform with:
 - Modular SQL project structure
 - Extensible design for ML, SCD2, and real-time ingestion
 
-## 🚀 How to Run This Project
+## 🖥️  How to Run This Project
 1. Create Database, Warehouse, and Schemas
 Run scripts in: sql=>00_setup=> create_database_warehouse_schema.sql
 2. Create Bronze Raw Tables
@@ -103,7 +103,6 @@ Snowflake_HR_Analytics_Lakehouse/
 
 ## 📊 Analytics Use Cases
 - Attrition Analysis
-
 - Hiring Trend Forecasting
 - Department Performance Metrics
 - Employee Tenure Analysis
