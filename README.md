@@ -38,6 +38,17 @@ This project simulates a real enterprise (test/mock) HR data platform with:
 - Flattened, analyst-friendly views
 - Ideal for Power BI, Tableau, Looker, Excel
 
+## ⭐ Key Features
+- Medallion Architecture (Bronze/Silver/Gold)
+- Dynamic Tables for automated ELT
+- Enterprise-scale synthetic HR dataset
+- Employee Master table combining status, location, supervisor, and department
+- Attrition & hiring trend metrics
+- Department performance metrics
+- BI-ready export schema
+- Modular SQL project structure
+- Extensible design for ML, SCD2, and real-time ingestion
+
 ## 🚀 How to Run This Project
 1. Create Database, Warehouse, and Schemas
 Run scripts in: sql=>00_setup=> create_database_warehouse_schema.sql
@@ -55,7 +66,8 @@ Run scripts in: sql=>03_gold=>
            04_dt_gold_employee_location_master.sql
            05_dt_gold_employee_status_master.sql
            06_dt_gold_hiring_trends.sql.sql
-
-           5. Build Gold Dynamic Tables
 6. Create Export Views
 Run scripts in: 04_views=>igold_export_views.sql
+
+## 🧰 Tech Stack
+![alt text](image.png)
