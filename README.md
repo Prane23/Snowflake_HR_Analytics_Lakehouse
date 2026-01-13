@@ -38,7 +38,7 @@ This project simulates a real enterprise (test/mock) HR data platform with:
 - Flattened, analyst-friendly views
 - Ideal for Power BI, Tableau, Looker, Excel
 
-## ⭐ Key Features
+## 🔮 Key Features
 - Medallion Architecture (Bronze/Silver/Gold)
 - Dynamic Tables for automated ELT
 - Enterprise-scale synthetic HR dataset
@@ -71,3 +71,53 @@ Run scripts in: 04_views=>igold_export_views.sql
 
 ## 🧰 Tech Stack
 ![alt text](image.png)
+
+## 🏗️ Architecture
+![alt text](image-1.png)
+
+## 📁 Repository Structure
+
+Snowflake_HR_Analytics_Lakehouse/
+│
+├── README.md
+│
+├── architecture/
+│   ├── medallion-architecture.png
+│   ├── dynamic-table-lineage.png
+│
+├── sql/
+│   ├── 00_setup/
+│   ├── 01_bronze/
+│   ├── 02_silver/
+│   ├── 03_gold/
+│   ├── 04_views/
+│
+└── data/
+
+## Database & schema structure
+
+![alt text](image-2.png)
+
+##  Gold Dynamic table graph 
+![alt text](image-3.png)
+
+
+## 📊 Analytics Use Cases
+- Attrition Analysis
+
+- Hiring Trend Forecasting
+- Department Performance Metrics
+- Employee Tenure Analysis
+- Supervisor → Employee Hierarchy
+- Location Distribution
+
+## 🔮 Future Enhancements
+- Add SCD Type 2 for employee attributes
+- Add Snowpipe for real-time ingestion
+- Add Power BI dashboard templates
+- Add Snowpark ML for attrition prediction
+- Add RBAC and row-level security
+
+## 🙌 Author
+Prashant  
+Snowflake | Data Engineering | Cloud Analytics
