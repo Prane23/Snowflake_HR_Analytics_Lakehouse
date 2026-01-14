@@ -98,7 +98,7 @@ Snowflake_HR_Analytics_Lakehouse/
 <img width="1509" height="1120" alt="image" src="https://github.com/user-attachments/assets/8b72736f-2ee8-4ad1-bc3b-540abba36734" />
 
 ##  Gold Dynamic table graph 
-<img width="1483" height="1102" alt="image" src="https://github.com/user-attachments/assets/9e90e5cd-0133-432e-b2f0-589ee8c10426" />
+<img width="1585" height="1040" alt="image" src="https://github.com/user-attachments/assets/924745fb-d13f-4c27-8361-198b09b809bf" />
 
 
 ## 📊 Analytics Use Cases
