@@ -128,5 +128,5 @@ Snowflake_HR_Analytics_Lakehouse/
 - Add RBAC and row-level security
 
 ## 🙌 Author
-Prashant  
-Snowflake | Data Engineering | Cloud Analytics
+**Prashant**  
+Snowflake | Data Engineering | Cloud Analytics | ETL Architect
