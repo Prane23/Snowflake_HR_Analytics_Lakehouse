@@ -73,8 +73,19 @@ Run scripts in: 04_views=>igold_export_views.sql
 <img width="718" height="338" alt="image" src="https://github.com/user-attachments/assets/1e4bb12a-a929-4b0f-bfbf-df352755d031" />
 
 ## 🏗️ Architecture
-<img width="729" height="568" alt="image" src="https://github.com/user-attachments/assets/e478c09f-7e0a-414f-a7a9-0789f2daf22d" />
 
+```mermaid
+graph TD
+   B[Bronze Layer: Raw HR Data] -->|Dynamic Tables| C[Silver Layer: Cleaned & Standardized Data]
+    C -->|Dynamic Tables| D[Gold Layer: Analyst‑Ready Facts & Metrics]
+    D -->|Views| E[Export Layer: BI Consumption]
+
+    style B fill:#cd7f32 stroke:#333 stroke-width:1px color:#fff
+    style C fill:#c0c0c0 stroke:#333 stroke-width:1px color:#000
+    style D fill:#ffd700 stroke:#333 stroke-width:1px color:#000
+    style E fill:#ffffff stroke:#333 stroke-width:1px color:#000
+
+```
 ## 📁 Repository Structure
 ```
 Snowflake_HR_Analytics_Lakehouse/
