@@ -16,6 +16,8 @@ This project simulates a real enterprise (test/mock) HR data platform with:
 - Department & attrition analytics: Gold metrics for BI dashboards
 - Export schema for BI tools: Clean, flattened views for Power BI/Tableau
 - Fully modular SQL project structure: Easy to extend and productionize
+## 🔗 Architecture
+<img width="524" height="524" alt="image" src="https://github.com/user-attachments/assets/af1dceee-84c4-4dd0-80f7-5fe0081457f0" />
 
 🟫 Bronze Layer — Raw Data
 - Raw ingestion tables for all HR entities
