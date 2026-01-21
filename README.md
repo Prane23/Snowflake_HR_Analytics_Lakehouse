@@ -16,9 +16,20 @@ This project simulates a real enterprise (test/mock) HR data platform with:
 - Department & attrition analytics: Gold metrics for BI dashboards
 - Export schema for BI tools: Clean, flattened views for Power BI/Tableau
 - Fully modular SQL project structure: Easy to extend and productionize
-## 🔗 Architecture
-<img width="524" height="524" alt="image" src="https://github.com/user-attachments/assets/af1dceee-84c4-4dd0-80f7-5fe0081457f0" />
+- 
+## 🏗️ Architecture
+```mermaid
+graph TD
+   B[Bronze Layer: Raw HR Data] -->|Dynamic Tables| C[Silver Layer: Cleaned & Standardized Data]
+    C -->|Dynamic Tables| D[Gold Layer: Analyst‑Ready Facts & Metrics]
+    D -->|Views| E[Export Layer: BI Consumption]
 
+    style B fill:#cd7f32 stroke:#333 stroke-width:1px color:#fff
+    style C fill:#c0c0c0 stroke:#333 stroke-width:1px color:#000
+    style D fill:#ffd700 stroke:#333 stroke-width:1px color:#000
+    style E fill:#ffffff stroke:#333 stroke-width:1px color:#000
+
+```
 🟫 Bronze Layer — Raw Data
 - Raw ingestion tables for all HR entities
 - Synthetic data generated directly in Snowflake
@@ -74,20 +85,7 @@ Run scripts in: 04_views=>igold_export_views.sql
 ## 🧰 Tech Stack
 <img width="718" height="338" alt="image" src="https://github.com/user-attachments/assets/1e4bb12a-a929-4b0f-bfbf-df352755d031" />
 
-## 🏗️ Architecture
 
-```mermaid
-graph TD
-   B[Bronze Layer: Raw HR Data] -->|Dynamic Tables| C[Silver Layer: Cleaned & Standardized Data]
-    C -->|Dynamic Tables| D[Gold Layer: Analyst‑Ready Facts & Metrics]
-    D -->|Views| E[Export Layer: BI Consumption]
-
-    style B fill:#cd7f32 stroke:#333 stroke-width:1px color:#fff
-    style C fill:#c0c0c0 stroke:#333 stroke-width:1px color:#000
-    style D fill:#ffd700 stroke:#333 stroke-width:1px color:#000
-    style E fill:#ffffff stroke:#333 stroke-width:1px color:#000
-
-```
 ## 📁 Repository Structure
 ```
 Snowflake_HR_Analytics_Lakehouse/
