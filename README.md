@@ -8,7 +8,7 @@ This project simulates a real enterprise (test/mock) HR data platform with:
 - 50 supervisors
 - Full HR history (job history, employment status, location tracking)
 - It is designed for People Analytics, Attrition Insights, Department Performance, and Hiring Trend Dashboards.
-
+---
 ## ⭐ Project Highlights
 - Medallion Architecture: Bronze (raw), Silver (cleaned), Gold (analytics)
 - Dynamic Tables: Automated incremental ELT pipelines
@@ -16,7 +16,7 @@ This project simulates a real enterprise (test/mock) HR data platform with:
 - Department & attrition analytics: Gold metrics for BI dashboards
 - Export schema for BI tools: Clean, flattened views for Power BI/Tableau
 - Fully modular SQL project structure: Easy to extend and productionize
-- 
+---
 ## 🏗️ Architecture
 ```mermaid
 graph TD
@@ -50,7 +50,7 @@ graph TD
 📤 Export Layer — BI Views
 - Flattened, analyst-friendly views
 - Ideal for Power BI, Tableau, Looker, Excel
-
+---
 ## 🔮 Key Features
 - Medallion Architecture (Bronze/Silver/Gold)
 - Dynamic Tables for automated ELT
@@ -61,7 +61,7 @@ graph TD
 - BI-ready export schema
 - Modular SQL project structure
 - Extensible design for ML, SCD2, and real-time ingestion
-
+---
 ## 🖥️  How to Run This Project
 1. Create Database, Warehouse, and Schemas
 Run scripts in: sql=>00_setup=> create_database_warehouse_schema.sql
@@ -81,7 +81,7 @@ Run scripts in: sql=>03_gold=>
            06_dt_gold_hiring_trends.sql.sql
 6. Create Export Views
 Run scripts in: 04_views=>igold_export_views.sql
-
+---
 ## 🧰 Tech Stack
 <img width="718" height="338" alt="image" src="https://github.com/user-attachments/assets/1e4bb12a-a929-4b0f-bfbf-df352755d031" />
 
@@ -105,12 +105,12 @@ Snowflake_HR_Analytics_Lakehouse/
 │
 └── data/
 ```
+---
 ## Database & schema structure
 <img width="1509" height="1120" alt="image" src="https://github.com/user-attachments/assets/8b72736f-2ee8-4ad1-bc3b-540abba36734" />
 
-##  Gold Dynamic table graph 
+## Gold Dynamic table graph 
 <img width="1585" height="1040" alt="image" src="https://github.com/user-attachments/assets/924745fb-d13f-4c27-8361-198b09b809bf" />
-
 
 ## 📊 Analytics Use Cases
 - Attrition Analysis
@@ -119,14 +119,14 @@ Snowflake_HR_Analytics_Lakehouse/
 - Employee Tenure Analysis
 - Supervisor → Employee Hierarchy
 - Location Distribution
-
+---
 ## 🔮 Future Enhancements
 - Add SCD Type 2 for employee attributes
 - Add Snowpipe for real-time ingestion
 - Add Power BI dashboard templates
 - Add Snowpark ML for attrition prediction
 - Add RBAC and row-level security
-
+---
 ## 🙌 Author
 **Prashant**  
 Snowflake | Data Engineering | Cloud Analytics | ETL Architect
